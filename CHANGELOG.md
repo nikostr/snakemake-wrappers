@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.11.0](https://www.github.com/nikostr/snakemake-wrappers/compare/v3.10.2...v3.11.0) (2024-05-23)
+
+
+### Features
+
+* Add support for regions file and arbitrary FAI/GZI paths ([#2936](https://www.github.com/nikostr/snakemake-wrappers/issues/2936)) ([445b35f](https://www.github.com/nikostr/snakemake-wrappers/commit/445b35f314f035d8248ca84cb16b273b0e65847c))
+* add wrapper to samtools collate ([#2929](https://www.github.com/nikostr/snakemake-wrappers/issues/2929)) ([0c7ae27](https://www.github.com/nikostr/snakemake-wrappers/commit/0c7ae27622e45167b9cc1aaf1be238b0d25429b9))
+* auto infer run mode ([#2937](https://www.github.com/nikostr/snakemake-wrappers/issues/2937)) ([08bd3cd](https://www.github.com/nikostr/snakemake-wrappers/commit/08bd3cd79243c4c0636f88d229667e58595611bd))
+* Goleft indexcov ([#2734](https://www.github.com/nikostr/snakemake-wrappers/issues/2734)) ([ebef6f8](https://www.github.com/nikostr/snakemake-wrappers/commit/ebef6f8259e89d9a06b2264a5d0a34da23d2e84e))
+
+
+### Bug Fixes
+
+* remove NA string replacement, fixed upstream ([#2940](https://www.github.com/nikostr/snakemake-wrappers/issues/2940)) ([8f4d223](https://www.github.com/nikostr/snakemake-wrappers/commit/8f4d223ec6c1e1e2715708d0532399ede4ed2727))
+
+
+### Performance Improvements
+
+* autobump bio/gatk/applybqsr ([#2938](https://www.github.com/nikostr/snakemake-wrappers/issues/2938)) ([498c67f](https://www.github.com/nikostr/snakemake-wrappers/commit/498c67fb12691b0021a7b234dfc279957b46708c))
+* autobump bio/gatk3/realignertargetcreator ([#2931](https://www.github.com/nikostr/snakemake-wrappers/issues/2931)) ([2d2835c](https://www.github.com/nikostr/snakemake-wrappers/commit/2d2835c51f974f7f45420f832b8084520d2d3ec0))
+* autobump bio/goleft/indexcov ([#2930](https://www.github.com/nikostr/snakemake-wrappers/issues/2930)) ([5ccbdb0](https://www.github.com/nikostr/snakemake-wrappers/commit/5ccbdb078a835ad0c2fd3e9e63677103fe216eeb))
+* autobump bio/hifiasm ([#2932](https://www.github.com/nikostr/snakemake-wrappers/issues/2932)) ([3722de7](https://www.github.com/nikostr/snakemake-wrappers/commit/3722de7000d0b74a3c56bfdb27aad6cf318562ee))
+* autobump bio/ptrimmer ([#2933](https://www.github.com/nikostr/snakemake-wrappers/issues/2933)) ([cd37e0b](https://www.github.com/nikostr/snakemake-wrappers/commit/cd37e0bb19e341ad40560828f3c052ef69529088))
+* autobump bio/whatshap/haplotag ([#2934](https://www.github.com/nikostr/snakemake-wrappers/issues/2934)) ([f0b638a](https://www.github.com/nikostr/snakemake-wrappers/commit/f0b638a55280c0727ccef5aab24e03b3d565f290))
+* Update Datavzrd to 2.36.12 ([#2924](https://www.github.com/nikostr/snakemake-wrappers/issues/2924)) ([beb9d22](https://www.github.com/nikostr/snakemake-wrappers/commit/beb9d2231c5d59ba74f23f56bbfc5e004aa72331))
+
 ### [3.10.2](https://www.github.com/snakemake/snakemake-wrappers/compare/v3.10.1...v3.10.2) (2024-05-03)
 
 
