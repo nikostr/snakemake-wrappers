@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.5.0](https://www.github.com/nikostr/snakemake-wrappers/compare/v4.4.0...v4.5.0) (2024-09-17)
+
+
+### Features
+
+* Add wrappers for ROOT rootcp CLI tool ([#3251](https://www.github.com/nikostr/snakemake-wrappers/issues/3251)) ([0be5d56](https://www.github.com/nikostr/snakemake-wrappers/commit/0be5d566f4767b7cd2ea9ba78b0d83a6f79a4803))
+* Enhance phys/root/filter functionality ([#3250](https://www.github.com/nikostr/snakemake-wrappers/issues/3250)) ([4797d76](https://www.github.com/nikostr/snakemake-wrappers/commit/4797d76630b0cc6ea05778a49727f7917b7874dc))
+
 ## [4.4.0](https://www.github.com/snakemake/snakemake-wrappers/compare/v4.3.0...v4.4.0) (2024-09-17)
 
 
